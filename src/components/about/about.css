@@ -1,0 +1,105 @@
+#about {
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.abouttitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem; 
+    margin-bottom: 1.5rem;
+}
+
+.aboutdisc {
+    font-size: 1rem;
+    font-weight: 200;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.aboutbars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.aboutbar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: gray;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.aboutbar:hover {
+    background: #555;
+    transform: scale(1.05); 
+}
+
+.aboutbarimg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.aboutbartext p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+/* media quaries */
+
+@media (max-width: 768px) {
+    .abouttitle {
+        font-size: 2.5rem; 
+    }
+
+    .aboutdisc {
+        font-size: 0.9rem; 
+        padding: 0 1rem; 
+    }
+
+    .aboutbar {
+        padding: 1rem 1.5rem; 
+        margin: 0.5rem; 
+    }
+
+    .aboutbarimg {
+        height: 2.5rem;
+        width: 2.5rem; 
+        margin-right: 1rem; 
+    }
+
+    .aboutbartext p {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .abouttitle {
+        font-size: 2rem; 
+    }
+
+    .aboutdisc {
+        font-size: 0.8rem; 
+    }
+
+    .aboutbar {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .aboutbarimg {
+        margin-bottom: 0.5rem; 
+    }
+}

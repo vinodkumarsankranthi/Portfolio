@@ -1,0 +1,235 @@
+#skills{
+    width: 80vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+}
+
+.skillstitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.skillscontainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row: 40px;
+    grid-column-gap:60px;
+}
+
+/*--------------left part----------*/
+
+.skillsbar1{
+    margin-bottom: 2.3rem;
+}
+.skillscontainer h3{
+    margin-bottom: 2rem;
+    font-size:2rem;
+    text-align: center;
+}
+.skillsleft .skillsbar1 .info1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.skillsleft .skillsbar1 .bar1{
+    width: 100%;
+    height: 10px;
+    background-color:gray;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+.skillsbar1 .bar1 span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color:yellow;
+    border-radius: 25px;
+}
+.skillsbar1 .bar1 .first1{
+    width: 95%;
+    animation: first1 2s;
+}
+.skillsbar1 .bar1 .second1{
+    width: 80%;
+    animation: second1 3s;
+}
+.skillsbar1 .bar1 .third1{
+    width: 80%;
+    animation: third1 4s;
+}
+.skillsbar1 .bar1 .fourth1{
+    width: 92%;
+    animation: fourth1 5s;
+}
+.skillsbar1 .bar1 .fifth1{
+    width: 80%;
+    animation: fifth1 6s;
+}
+@keyframes first1{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 95%;
+     }
+}
+
+@keyframes second1{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 80%;
+     }
+}
+
+@keyframes third1{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 80%;
+     }
+}
+
+@keyframes fourth1{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 92%;
+     }
+}
+
+@keyframes fifth1{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 80%;
+     }
+}
+/*--------------right part----------*/
+
+.skillsbar2{
+    margin-bottom: 2.3rem;
+}
+.skillscontainer h3{
+    margin-bottom: 2rem;
+    font-size:2rem;
+    text-align: center;
+}
+.skillsright .skillsbar2 .info2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.skillsright .skillsbar2 .bar2{
+    width: 100%;
+    height: 10px;
+    background-color:gray;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+.skillsbar2 .bar2 span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color:skyblue;
+    border-radius: 25px;
+}
+.skillsbar2 .bar2 .first2{
+    width: 91%;
+    animation: first2 2s;
+}
+.skillsbar2 .bar2 .second2{
+    width: 85%;
+    animation: second2 3s;
+}
+.skillsbar2 .bar2 .third2{
+    width: 89%;
+    animation: third2 4s;
+}
+.skillsbar2 .bar2 .fourth2{
+    width: 93%;
+    animation: fourth2 5s;
+}
+
+/* Key Frames */
+
+@keyframes first2{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 91%;
+     }
+}
+
+@keyframes second2{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 85%;
+     }
+}
+
+@keyframes third2{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 89%;
+     }
+}
+
+@keyframes fourth2{
+    0%{
+      width:0 ;
+     }
+     100%{
+        width: 93%;
+     }
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .skillscontainer {
+        grid-template-columns: 1fr; 
+    }
+    .skillstitle {
+        font-size: 2.5rem; 
+    }
+    .skillscontainer h3 {
+        font-size: 1.5rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .skillstitle {
+        font-size: 2rem; 
+    }
+    .skillscontainer h3 {
+        font-size: 1.25rem;
+    }
+    .skillsbar1 .bar1, .skillsbar2 .bar2 {
+        height: 8px; 
+       
+    }
+}
