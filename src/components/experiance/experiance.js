@@ -8,6 +8,8 @@ import js from '../../assects/js.png';
 import htmlcss from '../../assects/html.jpg';
 import backimg2 from '../../assects/background2.jpg';
 import complogo from '../../assects/companylogo.png';
+import reactjs from '../../assects/reactjs.png';
+import laravel from '../../assects/laravel.png';
 
 const experiance = () => {
   return (
@@ -35,6 +37,20 @@ const experiance = () => {
          <img src={cext} alt='C++'className='expleftimg'/>
          <div className='text'>
            <h3>C++ Language</h3>
+         </div>
+       </div>
+
+       <div className='img1'>
+         <img src={reactjs} alt='react js'className='expleftimg'/>
+         <div className='text'>
+           <h3>React Js (Frontend)</h3>
+         </div>
+       </div>
+
+       <div className='img1'>
+         <img src={laravel} alt='laravel'className='expleftimg'/>
+         <div className='text'>
+           <h3>Laravel (Backend)</h3>
          </div>
        </div>
 

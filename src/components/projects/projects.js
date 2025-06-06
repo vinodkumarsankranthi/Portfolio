@@ -4,11 +4,28 @@ import pro1 from '../../assects/project1.jpg';
 import pro2 from '../../assects/project2.png';
 import pro3 from '../../assects/project3.png';
 import pro4 from '../../assects/project4.png';
+import liveauction from '../../assects/liveauction.jpg';
+
 const projects = () => {
   return (
     <section id='projects'>
      <span className='projectstitle'>Projects</span>
            <div class="projectscontainer">
+
+            <div className="project">
+              <img src={liveauction} alt="Live Cricket Auction Project" className="pro1" />
+              <p className="text22">Full Stack Web Developer</p>
+              <p className="text33">
+                I have created a dynamic web application named <strong>Live Cricket Auction</strong>. This platform allows users to manage cricket auctions in real time.
+              </p>
+              <ul>
+                <li>Create and manage multiple auctions with custom rules and settings.</li>
+                <li>Add, edit, or delete teams and assign team budgets like in real IPL auctions.</li>
+                <li>Add a player pool with player details such as role, base price, and stats.</li>
+                <li>Conduct live bidding sessions where teams can bid for players in real time.</li>
+                <li>Display real-time bid status and assign players to the winning teams automatically.</li>
+              </ul>
+            </div>
 
            <div class="project">
             <img src={pro1} alt='project1'className='pro1'/>

@@ -3,6 +3,7 @@ import './about.css';
 import softdev from '../../assects/softdevimg.jpg';
 import webdev from '../../assects/webdevimg.png';
 import embdev from '../../assects/embdevimg.png';
+import liveauction from '../../assects/liveauction.jpg';
 
 const about = () => {
   return (
@@ -20,9 +21,17 @@ const about = () => {
          </div> 
 
          <div className='aboutbar'>
-           <img src={webdev} alt='Web developer'className='aboutbarimg'/>
+           <img src={liveauction} alt='Fullstack developer'className='aboutbarimg'/>
            <div className='aboutbartext'>
-            <h2>Web developer</h2>
+            <h2>Full Stack Web Developer</h2>
+            <p>As a Fullstack Developer I have Created a Website which is "Live Cricket Auction" where we can add the Auctions,palyers and teams for the auction.</p>
+           </div>
+         </div> 
+
+         <div className='aboutbar'>
+           <img src={webdev} alt='Web development'className='aboutbarimg'/>
+           <div className='aboutbartext'>
+            <h2>Web developement</h2>
             <p>As a Web Developer I have worked on college projects in my graduation stage and many projects for the company.</p>
            </div>
          </div> 
