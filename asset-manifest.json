@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.46ffc3de.css",
+    "main.js": "/Portfolio/static/js/main.ab68ceb5.js",
+    "static/media/project4.png": "/Portfolio/static/media/project4.f777fff391ef1b3ed991.png",
+    "static/media/embdevimg.png": "/Portfolio/static/media/embdevimg.f855985a58372c5924d5.png",
+    "static/media/softdevimg.jpg": "/Portfolio/static/media/softdevimg.6a13553e5d1b117f3fb2.jpg",
+    "static/media/webdevimg.png": "/Portfolio/static/media/webdevimg.3813c0af263d1056e209.png",
+    "static/media/project2.png": "/Portfolio/static/media/project2.18242b5cad1115d52833.png",
+    "static/media/image.png": "/Portfolio/static/media/image.5e504f8ec62dfb02acde.png",
+    "static/media/project3.png": "/Portfolio/static/media/project3.e318010cf07ff3e72f7c.png",
+    "static/media/project1.jpg": "/Portfolio/static/media/project1.5243f3f6a2e8f67246c5.jpg",
+    "static/media/liveauction.jpg": "/Portfolio/static/media/liveauction.79be17b41444a93c0a91.jpg",
+    "static/media/logo.png": "/Portfolio/static/media/logo.3e5985e277c87bea16c8.png",
+    "static/media/instagram.png": "/Portfolio/static/media/instagram.5a36eda86f799d815756.png",
+    "static/media/github.png": "/Portfolio/static/media/github.723ec7fd979d3aae7019.png",
+    "static/media/companylogo.png": "/Portfolio/static/media/companylogo.e371c5112934c84fbf89.png",
+    "static/media/html.jpg": "/Portfolio/static/media/html.485dae7e9d6560c86765.jpg",
+    "static/media/background2.jpg": "/Portfolio/static/media/background2.84bc44f4e214775d7954.jpg",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.7661b688ed6a5b72e396.png",
+    "static/media/twitter.png": "/Portfolio/static/media/twitter.28d04375f564f8205ef6.png",
+    "static/media/mobmenu.png": "/Portfolio/static/media/mobmenu.dc67c2e1013e8447f4af.png",
+    "static/media/contactimg.png": "/Portfolio/static/media/contactimg.009d8ed751ec692345ce.png",
+    "index.html": "/Portfolio/index.html",
+    "main.46ffc3de.css.map": "/Portfolio/static/css/main.46ffc3de.css.map",
+    "main.ab68ceb5.js.map": "/Portfolio/static/js/main.ab68ceb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46ffc3de.css",
+    "static/js/main.ab68ceb5.js"
+  ]
+}
